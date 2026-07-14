@@ -1,0 +1,26 @@
+{
+  "name": "genpark-openrouter-context-window-optimizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Max context token sliding truncation manager.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "openrouter",
+    "context"
+  ],
+  "inputs": {
+    "context_messages": {
+      "type": "array"
+    },
+    "limit_tokens": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "optimized_messages": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
